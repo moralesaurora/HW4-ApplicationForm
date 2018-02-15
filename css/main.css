@@ -1,0 +1,68 @@
+body {
+  background-color: #98D2Bf;
+}
+
+#container {
+  background-color: white;
+  font-family: Open Sans;
+  display: block;
+  width: 60%;
+  margin: 30px auto;
+  padding: 20px 10px;
+}
+
+h1 {
+  font-family: Oswald;
+  text-align: left;
+}
+
+h3{
+  font-family: Open Sans;
+  text-align: left;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+input, textarea {
+  padding: 10px;
+  width: 95%;
+}
+
+.wrapper label, .wrapper input {
+  display: inline-block;
+  width: auto;
+  margin: right;
+}
+
+.updates label, .updates input {
+  display: inline-block;
+  width: auto;
+  margin: right;
+}
+
+form {
+  align-items: center;
+  font-weight: 400;
+  /* width: 80%; */
+  width : 800px;
+}
+
+button {
+  font-family: Open Sans;
+  color: white;
+  cursor: pointer;
+  background: #B69843;
+  width:  100px;
+  height: 30px;
+  letter-spacing: 1.2px;
+  font-size: 12px;
+  width: 40%;
+  height: 30px;
+  transition: all .3s ease-in-out;
+  text-align: left;
+}
+
+button:hover {
+  background-color: white;
+	color: #B69843;
+}
